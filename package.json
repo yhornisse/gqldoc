@@ -1,0 +1,31 @@
+{
+  "name": "gqldoc",
+  "version": "0.1.0",
+  "description": "GraphQLのスキーマ情報からドキュメントを作成",
+  "main": "main.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "fs": "0.0.1-security",
+    "graphql": "^14.0.2",
+    "isomorphic-fetch": "^2.2.1",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhornisse/gqldoc.git"
+  },
+  "keywords": [
+    "graphql",
+    "javascript"
+  ],
+  "author": "Yoshimune Saito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhornisse/gqldoc/issues"
+  },
+  "homepage": "https://github.com/yhornisse/gqldoc#readme"
+}
